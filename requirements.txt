@@ -1,0 +1,10 @@
+numpy
+torch
+pillow
+pysimplegui
+click
+requests
+pyspng
+ninja
+imageio-ffmpeg==0.4.3
+dlib
