@@ -4,7 +4,13 @@ import torch
 class Generation:
     default_psi = 0.75
     model_path = "models/ffhq.pkl"
-    device = torch.device("cuda") if torch.cuda.is_available() else torch.device("cpu")
+    #device = torch.device("cuda") if torch.cuda.is_available() else torch.device("cpu")
+    device = torch.device("cpu")
+
+
+print(torch.version.cuda)  # Should print 12.x if PyTorch is built with CUDA 12.x
+print(torch.cuda.is_available())  # Should print True if CUDA is available
+print(torch.cuda.get_device_name(0))  # Should print your GPU's name
 
 
 class Projection:

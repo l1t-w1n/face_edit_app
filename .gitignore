@@ -1,2 +1,4 @@
 venv
 .idea
+stylegan2-ada-pytorch
+models
