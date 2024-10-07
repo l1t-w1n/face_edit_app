@@ -1,8 +1,8 @@
 import sys
 import os
-pypath = os.path.abspath(os.path.join(os.path.dirname(__file__), '../..'))
-sys.path.append(pypath)
-sys.path.append(f'{pypath}/stylegan2-ada-pytorch')
+#pypath = os.path.abspath(os.path.join(os.path.dirname(__file__), '../..'))
+#sys.path.append(pypath)
+#sys.path.append(f'{pypath}/stylegan2-ada-pytorch')
 import PySimpleGUI as sg
 from settings.config import Config
 from gui.layouts.sliders import sliders

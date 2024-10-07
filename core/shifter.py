@@ -1,8 +1,8 @@
 import sys
 import os
-pypath = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
-sys.path.append(pypath)
-sys.path.append(f'{pypath}/stylegan2-ada-pytorch')
+#pypath = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
+#sys.path.append(pypath)
+#sys.path.append(f'{pypath}/stylegan2-ada-pytorch')
 import torch
 from settings.config import Config,Generation
 from utils.helpers import load_numpy  # assuming load_numpy is in helpers.py

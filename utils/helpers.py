@@ -58,6 +58,6 @@ def convert_image(image, size):
     image = Image.fromarray(image)
     
     # Resize to the desired size using Resampling.LANCZOS (formerly ANTIALIAS)
-    image = image.resize(size, Image.Resampling.LANCZOS)
+    image = image.resize(size, Image.Resampling.ANTIALIAS)
     
     return image
